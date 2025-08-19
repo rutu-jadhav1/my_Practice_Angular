@@ -10,4 +10,13 @@ export class InterpolationComp {
   
   x=5;
   y=10;
+
+  handleClickEvent(){
+    alert("function called !");
+    this.otherFunction();
+  }
+
+  otherFunction(){
+    console.log("other function called");
+  }
 }
