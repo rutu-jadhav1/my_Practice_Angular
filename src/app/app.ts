@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { InterpolationComp } from './Component/interpolation-comp/interpolation-comp';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [InterpolationComp],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
