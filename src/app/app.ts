@@ -9,4 +9,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected title = 'my_Practice_Angular';
+
+
 }
