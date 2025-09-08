@@ -1,0 +1,21 @@
+<p>event-component works!</p>
+<button (click)="handleEvent($event)">Click Event</button>
+
+<br/>
+<br/>
+<div (mouseenter)="handleEvent($event)"
+    style="background-color: aqua; width: 100px; height: 100px;">
+</div>
+
+<div (mouseleave)="handleEvent($event)"
+    style="background-color: rgb(31, 133, 133); width: 100px; height: 100px;">
+</div>
+
+<br/>
+<br/>
+<input 
+    (focus)="handleEvent($event)"
+    (input)="handleEvent($event)" 
+    (blur)="handleEvent($event)"
+    type="text" 
+    placeholder="Type something..."/>
